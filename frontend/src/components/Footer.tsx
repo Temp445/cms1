@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-700 text-gray-300 pb-20 -mt-20">
       <div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fillOpacity="1" d="M0,96L80,96C160,96,320,96,480,106.7C640,117,800,139,960,138.7C1120,139,1280,117,1360,106.7L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FAFAFA" fillOpacity="1" d="M0,96L80,96C160,96,320,96,480,106.7C640,117,800,139,960,138.7C1120,139,1280,117,1360,106.7L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
       </div>
      <div className='container mx-auto xl:-mt-32'>
          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

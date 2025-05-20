@@ -8,11 +8,11 @@ const Hero = () => {
 
 
   return (
-    <div className="bg-gray-100 relative min-h-fit overflow-hidden " id="top">
-      <div className="absolute inset-0 bg-gradient-to-br from-gray-100 via-gray-100 to-purple-200 z-0"></div>
+    <div className=" relative min-h-fit overflow-hidden " id="top">
+      <div className="absolute inset-0 bg-gradient-to-br from-gray-100 via-gray-100 to-sky-200 z-0"></div>
 
       <div className="relative min-h-fit overflow-hidden bg-gray-100 container mx-auto ">
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-100 via-gray-100 to-purple-200 z-0"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-gray-100 via-gray-100 to-sky-200 z-0"></div>
 
         <div className="absolute top-20 right-40 w-64 h-64 rounded-full bg-cyan-400 opacity-80 blur-lg z-0 animate-pulse "></div>
         <div className="flex absolute top-16 left-5 md:top-40 md:left-10 w-10 h-10 md:w-16 md:h-16  border border-purple-600 transform rotate-45 opacity-70 z-0 rectangle"></div>
