@@ -48,7 +48,7 @@ const PricingTable: React.FC = () => {
       desc: 'Best for calibration beginners',
       buttonText: 'Subscribe Now',
       buttonlink: '#',
-      buttonClass: 'bg-none border text-black hover:bg-blue-500 hover:text-white',
+      buttonClass: 'bg-none border text-black hover:bg-sky-500 hover:text-white',
       highlighted: false,
       tag: '',
     },
@@ -57,7 +57,7 @@ const PricingTable: React.FC = () => {
       desc: 'For growing teams needing automation',
       buttonText: 'Subscribe Now',
       buttonlink: '#',
-      buttonClass: 'bg-none border text-black hover:bg-violet-500 hover:text-white',
+      buttonClass: 'bg-none border text-black hover:bg-sky-600 hover:text-white',
       highlighted: true,
       tag: 'Smart Choice',
     },
@@ -66,7 +66,7 @@ const PricingTable: React.FC = () => {
       desc: 'For large teams requiring full control',
       buttonText: 'Subscribe Now',
       buttonlink: '#',
-      buttonClass: 'bg-none border text-black hover:bg-orange-600 hover:text-white',
+      buttonClass: 'bg-none border text-black hover:bg-sky-600 hover:text-white',
       highlighted: false,
       tag: 'Full Access',
     },
@@ -158,10 +158,10 @@ const PricingTable: React.FC = () => {
     <div className="w-full max-w-7xl mx-auto px-8 sm:px-6 md:px-4 py-16" id="pricing">
       <div className="text-center mb-10">
         <div className="flex gap-2 justify-center">
-          <span className="mt-1 text-2xl text-[#fd5a8b] lg:text-4xl">
+          {/* <span className="mt-1 text-2xl text-[#fd5a8b] lg:text-4xl">
             <SiMoneygram />
-          </span>
-          <h1 className="text-2xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-bl from-violet-500 to-red-400">
+          </span> */}
+          <h1 className="text-2xl md:text-4xl font-bold bg-clip-text text-transparent bg-gray-900">
             Subscription Options
           </h1>
         </div>
@@ -172,11 +172,11 @@ const PricingTable: React.FC = () => {
         {plans.map(plan => (
           <div
             key={plan.name}
-            className={`relative bg-white rounded border ${plan.highlighted ? 'border-violet-500 shadow-lg' : 'border-gray-200 shadow'} hover:shadow-xl transition-all`}
+            className={`relative bg-white rounded border ${plan.highlighted ? 'border-sky-600 shadow-lg' : 'border-gray-200 shadow'} hover:shadow-xl transition-all`}
           >
             {plan.tag && (
               <div className="absolute top-5 right-0">
-                <span className="bg-gradient-to-bl from-violet-500 to-red-400 text-white px-3 py-1 rounded-l-full text-sm font-medium shadow-sm">
+                <span className="bg-sky-500 text-white px-3 py-1 rounded-l-full text-sm font-medium shadow-sm">
                   {plan.tag}
                 </span>
               </div>
@@ -201,7 +201,7 @@ const PricingTable: React.FC = () => {
                   onChange={(e) =>
                     setSliderValues(prev => ({ ...prev, [plan.name]: parseInt(e.target.value) }))
                   }
-                  className="w-full accent-violet-500"
+                  className="w-full accent-sky-600"
                 />
              <label className="text-sm text-gray-600 block mb-1">
                     Instrument Range: {sliderValues[plan.name]}

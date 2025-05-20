@@ -36,7 +36,7 @@ const Banner = () => {
          Easily check your calibration info on your phone anytime, anywhere. Access real-time data, track history, and stay audit-ready on the go, all without needing a desktop.
         </p>
     <div className='mt-5 md:mt-10'> 
-        <Link href="/signin" className=" text-sm md:text-base  mt-4 p-1.5 md:p-0 md:px-3 md:py-2 border border-black text-black hover:border-indigo-700 hover:text-white rounded shadow-lg hover:bg-indigo-700  transition">
+        <Link href="/signin" className=" text-sm md:text-base  mt-4 p-1.5 md:p-0 md:px-3 md:py-2 border border-white text-white hover:border-indigo-700 hover:text-white rounded shadow-lg hover:bg-indigo-700  transition">
           Tap to enter
         </Link>
     </div>

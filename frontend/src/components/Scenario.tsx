@@ -11,14 +11,16 @@ const Scenario = () => {
   return (
     <div className="flex w-full min-h-fit  items-center justify-center py-12 px-4 sm:px-6 lg:px-20 mt-2  ">
       <div className="bg-white rounded-2xl shadow-xl w-full max-w-6xl p-4 sm:p-8 md:p-12 flex flex-col lg:flex-row items-center md:items-start relative border border-sky-600">
-        <div className='hidden w-32 h-3 inset-0 lg:flex mx-auto absolute bg-sky-600  rounded-b-lg '></div>
+        <div className='hidden w-2 h-32 inset-0 lg:flex  absolute bg-sky-600  rounded-r left-0 top-10'></div>
+        <div className='hidden w-2 h-32  lg:flex  absolute bg-sky-600  rounded-l right-0 bottom-10'></div>
+
         <div className="lg:w-1/2 mb-6 md:mb-0 md:pr-8 order-2 lg:order-1">
           <h1 className="text-2xl sm:text-4xl lg:text-3xl xl:text-5xl font-bold mb-4 text-gray-800">
             ACE Calibration Management System
           </h1>
           <p className=" md:text-lg text-justify sm:text-xl lg:text-sm xl:text-xl text-gray-600 leading-relaxed md:mt-5">
             Imagine your next audit — no more paper trails, no more scrambling for certificates. 
-            With <span className="font-semibold text-blue-500">ACE CMS</span>, everything you need is ready at a click, 
+            With <span className="font-semibold text-blue-800">ACE CMS</span>, everything you need is ready at a click, 
             and your auditors are impressed. Your team stays calm, focused, and confident that everything is in order.
           </p>
 <div className='mt-10'>

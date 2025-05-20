@@ -10,7 +10,7 @@ const Why_Choose = () => {
  
 
   return (
-    <section className="py-16 container mx-auto ">
+    <section className="pt-16 container mx-auto ">
       <div className="container mx-auto px-2 md:px-4">
         <div className="flex flex-col xl:flex-row items-center gap-8 xl:gap-16">
           <div className="w-full md:w-8/12  xl:w-5/12 relative">
