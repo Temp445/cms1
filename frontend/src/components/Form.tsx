@@ -58,7 +58,7 @@ const Form: React.FC = () => {
         <div className="flex flex-col md:flex-row p-4 py-10  rounded-lg  md:py-10 max-w-6xl mx-auto sm:mt-20 mb-20 justify-center">
           <div className="md:w-7/12 rounded md:rounded-none md:rounded-l-sm md:border-sky-800 border p-5 md:p-10">
             <h2 className="text-xl md:text-3xl font-semibold text-gray-800 mb-6">
-              Get in touch and  <strong className="text-blue-800">schedule your demo now!</strong>
+              Get in touch and  <strong className="text-sky-800">schedule your demo now!</strong>
             </h2>
             <form ref={form} onSubmit={handleSubmit} className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

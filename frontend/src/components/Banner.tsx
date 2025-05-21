@@ -23,8 +23,7 @@ const Banner = () => {
          <div className='hidden 2xl:block absolute w-24 h-24 border border-gray-700 z-10 top-20 right-0  rounded-full rotate-90'></div>
          <div className='hidden lg:block absolute w-20 h-20 border border-gray-400 z-10 bottom-24  rotate-45'></div>
          <div className='hidden lg:block absolute w-12 h-12 border border-gray-400 z-10 bottom-28  rotate-45 '></div>
-         <div className='hidden lg:block absolute w-2 h-10 border border-gray-800 z-10 top-32 left-96 rotate-90 rounded-full '></div>
-
+         <div className='hidden lg:block absolute w-2 h-10 border border-gray-800 z-10 top-28 left-96 rotate-90 rounded-full '></div>
 
 
     

@@ -29,12 +29,12 @@ const Why_Choose = () => {
           
         
           <div className="w-full xl:w-7/12 space-y-6  border border-gray-200  sm:border-0 pt-5 pb-10 px-2 lg:px-12 xl:px-2 rounded">
-            <div className="inline-block bg-blue-50 text-blue-800 px-4 py-1 rounded-full font-medium">
+            <div className="inline-block bg-blue-50 text-sky-800 px-4 py-1 rounded-full font-medium">
               Why Choose Us?
             </div>
             
             <h2 className="text-2xl md:3xl 2xl:text-4xl font-bold text-gray-800 leading-tight">
-               ACE CMS – Smart <span className='text-blue-800 mr-2'>Calibration Management</span> <br className='hidden lg:block' />Made Simple
+               ACE CMS – Smart <span className='text-sky-800 mr-2'>Calibration Management</span> <br className='hidden lg:block' />Made Simple
               <span className="text-blue-600"></span>
             </h2>
             
