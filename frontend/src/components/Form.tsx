@@ -152,8 +152,7 @@ const Form: React.FC = () => {
 
         <div className="mt-20 md:mt-0 md:w-5/12 bg-sky-700 text-white border border-e-sky-800 border-y-sky-800 border-l-sky-800 md:border-l-0 rounded md:rounded-none md:rounded-r-sm" >
             <div className="h-48 relative overflow-hidden">
-             
-              <div className="absolute inset-0 bg-blue-50 bg-opacity-20 flex flex-col items-center justify-center mg:rounded-tr-sm">
+              <div className="absolute inset-0 bg-blue-50 bg-opacity-20 flex flex-col items-center justify-center rounded md:rounded-tr">
             <Image 
               fill
               src={icon} 

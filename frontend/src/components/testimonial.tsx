@@ -50,7 +50,7 @@ export default function TestimonialCarousel() {
 
   return (
     <div
-      className='bg-sky-700 py-10 px-2 md:px-10'
+      className='bg-sky-700 py-10 mt-10 px-2 md:px-10'
     >
       <h1 className='text-center text-2xl md:text-3xl font-bold pb-5 text-white'>
         Authentic Customer Feedback

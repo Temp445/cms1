@@ -155,7 +155,7 @@ const PricingTable: React.FC = () => {
   };
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-8 sm:px-6 md:px-4 py-16" id="pricing">
+    <div className="w-full max-w-7xl mx-auto px-8 sm:px-6 md:px-4 py-5 md:py-16" id="pricing">
       <div className="text-center mb-10">
         <div className="flex gap-2 justify-center">
           {/* <span className="mt-1 text-2xl text-[#fd5a8b] lg:text-4xl">
@@ -216,7 +216,7 @@ const PricingTable: React.FC = () => {
               </a>
 
               <button
-                className="w-full md:hidden bg-gradient-to-bl from-violet-500 to-red-300 text-white py-2 rounded-sm font-semibold flex items-center justify-center mt-8 mb-4"
+                className="w-full md:hidden bg-sky-600 text-white py-2 rounded-sm font-semibold flex items-center justify-center mt-8 mb-4"
                 onClick={() => togglePlanFeatures(plan.name)}
               >
                 Features List <LuSquareArrowOutUpRight className="ml-3 text-lg" />
